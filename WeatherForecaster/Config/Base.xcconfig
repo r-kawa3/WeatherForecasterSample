@@ -1,0 +1,4 @@
+// 共通のビルド設定。APIキーは Secrets.xcconfig(Git管理外)で上書きする。
+OPENWEATHERMAP_API_KEY =
+
+#include? "Secrets.xcconfig"
