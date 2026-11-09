@@ -89,3 +89,8 @@ WeatherForecaster/
 2. 一覧画面の `viewWillAppear` で Presenter が Interactor に予報取得を依頼
 3. Interactor が `OpenWeatherMapClient` 経由で API を呼び、結果を Presenter → View に返す
 4. セルをタップすると Presenter → Router が詳細画面を push
+
+## ライセンス
+
+- **ソースコード**: [MIT License](LICENSE)
+- 天気のデータは [OpenWeather](https://openweathermap.org/) の API から取得します。データの利用条件は OpenWeather の規約に従います。詳細画面の下に「Weather data provided by OpenWeather」と出し、押すと openweathermap.org を開きます。
